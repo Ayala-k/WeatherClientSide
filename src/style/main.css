@@ -1,0 +1,52 @@
+body {
+    background-color: lightblue;
+    margin: 0;
+}
+
+h1{
+    background-color: white;
+    margin-top: 0px;
+    height: 80px;
+    padding-top: 30px;
+}
+
+.main_component {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.main_component>div {
+    text-align: right;
+    background-color: white;
+    width: 30%;
+    margin: 50px;
+    padding: 20px;
+    box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+}
+
+.main_component>div>.top_div {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.main_component>div>.top_div>img {
+    margin-top: 10px;
+    width: 100px;
+    height: 100px;
+}
+
+.main_component>div>.bottom_div {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.main_component>div>.bottom_div>section {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5em;
+}
